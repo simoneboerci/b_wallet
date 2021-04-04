@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "818895138710",
+    "project_id": "b-wallet-72a62",
+    "storage_bucket": "b-wallet-72a62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:818895138710:android:1b58d69a408377e4d737b7",
+        "android_client_info": {
+          "package_name": "com.boercisimone.b_wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "818895138710-gpt1u16a3lka0nvkbiispknt788b77be.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCrbiRAIafXqqyy6mf0LULPaGmojWCZzM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "818895138710-gpt1u16a3lka0nvkbiispknt788b77be.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
