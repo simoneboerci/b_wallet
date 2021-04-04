@@ -2,6 +2,7 @@ import 'package:b_wallet/pages/login_in_page.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 
 import './pages/home_page.dart';
 
@@ -14,6 +15,7 @@ Future main() async{
 class BWallet extends StatelessWidget {
 
   final FirebaseAuth auth = FirebaseAuth.instance;
+  final FirebaseFirestore firebaseFirestore = FirebaseFirestore.instance;
 
   @override
   Widget build(BuildContext context) {
@@ -22,7 +24,7 @@ class BWallet extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: auth.currentUser == null ? LoginPage() : HomePage()
+      home: auth.currentUser == null ? LoginPage(firebaseFirestore) : HomePage(firebaseFirestore)
     );
   }
 }
