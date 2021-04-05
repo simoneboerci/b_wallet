@@ -25,7 +25,9 @@ dependencies:
     sdk: flutter
   firebase_core:
   firebase_auth:
+  ota_update:
   cloud_firestore:
+  firebase_storage:
   google_sign_in:
 
 
